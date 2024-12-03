@@ -1,0 +1,26 @@
+{
+  "server": {
+    "host": "localhost",
+    "port": 8080,
+    "max_connections": 100,
+    "paths": [
+      "/home",
+      "/user"
+    ]
+  },
+  "database": {
+    "host": "db.local",
+    "port": 3306
+  },
+  "enabled": true,
+  "timeout": 30,
+  "threshold": 50,
+  "config_name": "main_config",
+  "paths": [
+    "/api",
+    "/docs"
+  ],
+  "max_connections": 200,
+  "api_url": "$server_host$",
+  "default_value": "$threshold$"
+}
